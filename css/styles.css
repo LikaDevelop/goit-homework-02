@@ -46,11 +46,14 @@ header{
 .logo-web-footer:focus,
 .logo-web-footer:hover,
 .logo-studio-footer:focus,
-.logo-studio-footer:hover,
-.order-button:focus,
-.order-button:hover
+.logo-studio-footer:hover
 {
     color: #404bbf;
+}
+
+.order-button:focus,
+.order-button:hover{
+    background-color: #404BBF
 }
 
 .logo-studio{
@@ -114,6 +117,10 @@ header{
 
 .team{
     background: var(--CLOUD, #F4F4FD);;
+}
+
+.team-cards{
+    background-color: #FFFFFF
 }
 
 .section-title{
